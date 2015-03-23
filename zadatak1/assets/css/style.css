@@ -1,0 +1,260 @@
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	font-size: 16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a:-webkit-any-link{color:black;text-decoration:none;}
+
+
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-top{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	padding:10px;
+}
+.header{
+	background-color: gray;
+	background-image: url('../img/cover.jpg');
+	height: 240px;
+	margin-bottom:20px;
+}
+
+.header .title h1{
+	display: inline-block;
+    padding: 10px;
+    font-size: 48px;
+}
+
+.header .title h2{
+	display:inline-block;
+	padding:10px;
+	font-size:32px;
+}
+.header .title h1,
+.header .title h2,
+.nav ul li,
+.top-link a{
+	background-color:grey;
+	color:white;
+	border-radius:10px;
+}
+.nav{
+  margin:0 0 20px 0;
+}
+.nav ul{
+    padding:0;
+    list-style:none;
+    text-align:center;
+    margin:0;
+}
+.nav ul li{
+	display: inline-block;
+	height:40px;
+	width:120px;
+	margin:0 10px 10px 0;
+	padding:10px;
+}
+.nav ul li a{
+	color:white;
+	font-size:18px;
+	font-weight: bold;
+}
+/*  HOME PAGE  */
+.aside{
+	display:inline-block;
+	width:22%;
+	float:left;
+	margin:60px 2% 0 0;
+	background-color:#DAFF91;
+	padding:14px;
+	border-radius:10px;
+}
+
+.aside p{
+	font-size:18px;
+	text-transform:uppercase;
+	margin:0 0 20px 0;
+}
+
+.aside ol li{
+	margin-bottom:10px;
+	text-align:left;
+	line-height:22px;	
+}
+
+.main{
+	display:inline-block;
+	overflow:hidden;
+	float:right;
+	width:75%;
+}
+.main .article{
+	width:48%;
+	display:inline-block;
+	float:left;
+	margin:0 3% 20px 0;
+	line-height:22px;
+}
+.main .article:nth-of-type(2n){
+	margin:0;	
+}
+.main .article h3:first-of-type{
+	border-bottom:1px solid gray;
+	line-height:32px;
+}
+.top-link{
+	text-align:center;
+	margin:0 0 20px 0;
+}
+.top-link a{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	padding: 10px;
+	font-size: 18px;
+}
+.section{
+	border-top: 1px solid gray;
+	text-align: center;
+}
+.section form{
+	margin:0 0 20px 0;
+}
+.section form input[type="text"],
+.section form textarea,
+.section form input[type="date"]
+{
+	width: 60%;
+	border: 2px solid gray;
+	margin: 0 0 10px 0;
+}
+.section form input[type="text"],
+.section form input[type="date"]{
+	height: 40px;
+}
+.section form textarea{
+	height: 118px;
+}
+
+.section form input[type="submit"]{
+	background-color: #2EB82E;
+	border-radius: 10px;
+	border: none;
+	text-transform: uppercase;
+	color: white;
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+}
+.literature{
+	border-top: 1px solid gray;
+	margin:0 0 20px 0;
+}
+/*--end HOME PAGE--*/
+
+
+/*  ABOUT PAGE  */
+.small-container{
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.section-info{
+   margin-bottom:20px;
+}
+.section-info h3,
+.section-about h3{
+  border-bottom:1px solid gray;
+  line-height:32px;
+}
+.section-info p{
+	line-height:22px;
+}
+.section-about{
+	margin-bottom:20px;
+}
+.section-about p{
+	line-height:22px;
+	font-size:18px;
+	margin:0 0 10px 0;
+}
+.section-about p span{
+	text-transform: uppercase;
+	font-size:14px;
+}
+/*--end ABOUT PAGE--*/
+
+/*  CONTACT  */
+.main-contact{
+	border-top:1px solid gray;
+	text-align: center;
+}
+.main-contact form{
+	margin:0 0 20px 0;
+}
+.main-contact form input[type="text"],
+.main-contact form textarea,
+.main-contact form input[type="date"]
+{
+	width: 60%;
+	border: 2px solid gray;
+	margin: 0 0 10px 0;
+}
+.main-contact form input[type="text"],
+.main-contact form input[type="date"]{
+	height: 40px;
+}
+.main-contact form textarea{
+	height: 118px;
+}
+
+.main-contact form input[type="submit"]{
+	background-color: #2EB82E;
+	border-radius: 10px;
+	border: none;
+	text-transform: uppercase;
+	color: white;
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+}
+/*--END CONTACT--*/
+
+
+/*  FOOTER  */
+.footer{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding:10px;
+}
+/*--end footer--*/
+a:hover{
+	text-decoration: underline;
+}
+a:focus{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
